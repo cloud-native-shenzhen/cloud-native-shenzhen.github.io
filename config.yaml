@@ -35,6 +35,7 @@ languages:
     title: "Cloud Native Shenzhen"
     description: "Website for cloud-native platform. "
     languageName: "English"
+    contentDir: "content/en"
     # Weight used for sorting.
     weight: 1
   zh:
