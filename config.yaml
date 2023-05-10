@@ -2,8 +2,8 @@ baseURL: "cloud-native-shenzhen.github.io"
 title: "Cloud Native Shenzhen"
 
 # Language settings
-contentDir: "content/en"
-defaultContentLanguage: "en"
+contentDir: "content/zh"
+defaultContentLanguage: "zh"
 defaultContentLanguageInSubdir: false
 # Useful when translating.
 enableMissingTranslationPlaceholders: true
@@ -30,13 +30,19 @@ imaging:
   anchor: "smart"
 
 # Language configuration
-language:
+languages:
   en:
-    title: "Container Cloud"
+    title: "Cloud Native Shenzhen"
     description: "Website for cloud-native platform. "
     languageName: "English"
     # Weight used for sorting.
     weight: 1
+  zh:
+    title: "容器云平台"
+    description: "云原生平台官网. "
+    languageName: "中文"
+    contentDir: "content/zh"
+    weight: 2
 
 markup:
   goldmark:
